@@ -513,7 +513,7 @@ async function createRecognizer() {
       delegate,
     },
     runningMode: "VIDEO",
-    numHands: 2,
+    numHands: 1,
   });
   try {
     return await GestureRecognizer.createFromOptions(vision, opts("GPU"));
